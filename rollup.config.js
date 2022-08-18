@@ -32,7 +32,9 @@ export default [
             terser(),
             copy({
                 targets: [
-                    { src: 'styles.less', dest: 'dist' },
+                    { src: 'node_modules/antd/dist/antd.min.css', dest: 'styles', rename: 'default.css' },
+                    { src: 'node_modules/antd/dist/antd.dark.min.css', dest: 'styles', rename: 'dark.css' },
+                    { src: 'node_modules/antd/dist/antd.compact.min.css', dest: 'styles', rename: 'compact.css' },
                 ],
             }),
             visualizer(),

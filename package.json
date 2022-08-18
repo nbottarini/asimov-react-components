@@ -1,6 +1,6 @@
 {
   "name": "asimov-react-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React components library based on Ant Design",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,7 +19,8 @@
     "components"
   ],
   "files": [
-    "dist"
+    "dist",
+    "styles"
   ],
   "scripts": {
     "build": "rollup -c",
