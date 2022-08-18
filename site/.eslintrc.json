@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "react/display-name": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/no-unescaped-entities": "off",
+    "import/no-anonymous-default-export": "off"
+  }
+}
